@@ -99,11 +99,12 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #292727;
+  background-color: rgb(70, 70, 70);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  border-radius: 2rem;
 }
 
 .menu-links a {
@@ -229,6 +230,10 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+}
+
+.btn-color-2{
+  color: rgb(109, 128, 236);
 }
 
 .btn-color-1,
@@ -376,6 +381,7 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: rgb(255, 255, 255);
+  margin-bottom: 3rem;
 }
 
 .project-btn {
